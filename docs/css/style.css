@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+.logo-container {
+  background: lightblue;
+  flex: 1;
+}
+
+nav {
+  background: rgb(189, 230, 173);
+}
+.cart {
+  background: rgb(156, 37, 21);
+}
