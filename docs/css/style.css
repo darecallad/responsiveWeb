@@ -11,17 +11,41 @@ body {
 header {
   display: flex;
   width: 90%;
+  height: 10vh;
   margin: auto;
+  align-items: center;
+}
+
+.logo-container,
+.nav-links,
+.cart {
+  display: flex;
 }
 
 .logo-container {
-  background: lightblue;
   flex: 1;
 }
 
+.logo {
+  font-weight: 400;
+  margin: 5px;
+}
+
 nav {
-  background: rgb(189, 230, 173);
+  flex: 2;
+}
+
+.nav-links {
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-link {
+  font-size: 18px;
+  text-decoration: none;
+  color: #5f5f79;
 }
 .cart {
-  background: rgb(156, 37, 21);
+  flex: 1;
+  justify-content: flex-end;
 }
