@@ -33,7 +33,7 @@ This project is a simple landing page for a laptop product. It is fully responsi
   - A cover image of the product.
   - A laptop selection section with arrows and dots for navigation.
   - Three decorative circles.
-  
+
 ## Styles
 
 - The styles are organized in a separate CSS file (style.css).
@@ -56,4 +56,3 @@ This project is a simple landing page for a laptop product. It is fully responsi
 - Add more sections to the landing page, like testimonials, features, and a footer.
 - Add functionality to the cart icon and the laptop selection section.
 - Improve the animations and transitions for a more dynamic user experience.
-
