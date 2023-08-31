@@ -81,6 +81,7 @@ nav {
   height: 60vh;
   filter: drop-shadow(0px 5px 3px black);
   /* drop shadow on png*/
+  animation: drop 1.5s ease;
 }
 
 .cta {
@@ -145,4 +146,24 @@ nav {
   bottom: 0%;
   left: 20%;
   z-index: -1;
+}
+
+.laptop-select {
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  right: 20%;
+}
+
+/* animation*/
+@keyframes drop {
+  0% {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
