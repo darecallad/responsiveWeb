@@ -15,6 +15,7 @@ header {
   height: 10vh;
   margin: auto;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .logo-container,
@@ -30,6 +31,7 @@ header {
 .logo {
   font-weight: 400;
   margin: 5px;
+  color: #494964;
 }
 
 nav {
@@ -45,7 +47,13 @@ nav {
   font-size: 18px;
   text-decoration: none;
   color: #5f5f79;
+  transition: color 0.3s;
 }
+
+.nav-link:hover {
+  color: #c36cbb;
+}
+
 .cart {
   flex: 1;
   justify-content: flex-end;
@@ -97,12 +105,13 @@ nav {
   cursor: pointer;
   font-size: 16px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s, color 0.3s;
 }
 
 .cta-select:hover {
   background: #c36cbb;
   color: white;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .cta-add {
@@ -115,13 +124,14 @@ nav {
   font-size: 16px;
   margin: 30px 0px 0px 0px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s, color 0.3s;
 }
 
 .cta-add:hover {
   background: transparent;
   color: #c36cbb;
   border: 2px solid #c36cbb;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .big-circle {
